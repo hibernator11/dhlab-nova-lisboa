@@ -45,7 +45,7 @@ WHERE {
 } GROUP BY ?glamlab ?glamlabLabel
 ```
 
-<img src="imagenes/mapa-glamlabs.png" width="60%">
+<img src="[imagenes/mapa-glamlabs.png](https://github.com/hibernator11/hdh-compartir-pantalla-2023/raw/main/imagenes/mapa-glamlabs.png)" width="60%">
 
 ## Federated queries
 SPARQL enables the use of federated queries to search across several repositories. See, for example, the following example that retrieves the works included in the Biblioteca Virtual Miguel de Cervantes of the author Lope de Vega (wd:Q165257).
