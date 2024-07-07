@@ -1,4 +1,7 @@
 # dhlab-nova-lisboa
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/dhlab-nova-lisboa/HEAD)
+
 This project was originally created for a workshop for the [Digital Humanities Lab (DH_Lab)](https://dhlab.fcsh.unl.pt/about-lab_hd-fcsh/#en) associated with [NOVA-FCSH](http://www.fcsh.unl.pt/) of [Universidade NOVA de Lisboa](https://www.unl.pt/).
 
 <img src="logos.png">
