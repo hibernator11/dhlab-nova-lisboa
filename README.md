@@ -3,7 +3,7 @@ Workshop for the [Digital Humanities Lab (DH_Lab)](https://dhlab.fcsh.unl.pt/abo
 
 
 ## Map representing the nationalities of the authors included in the Biblioteca Virtual Miguel de Cervantes
-This example is based on the [Linked Open Data version of the Biblioteca Virtual Miguel de Cervantes catalogue](https://data.cervantesvirtual.com/datos-enlazados). The data is enriched with Wikidata, enabling the creation of visualisations using the Wikidata SPARQL endpoint. The SPARQL query can be executed in this [link](https://w.wiki/9FwJ)
+This example is based on the [Linked Open Data version of the Biblioteca Virtual Miguel de Cervantes catalogue](https://data.cervantesvirtual.com/datos-enlazados). The data is enriched with Wikidata, enabling the creation of visualisations using the Wikidata SPARQL endpoint. The SPARQL query can be executed in this [link](https://w.wiki/9FwJ).
 
 ```
 #defaultView:Map
