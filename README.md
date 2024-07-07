@@ -25,6 +25,42 @@ WHERE {
 
 <img src="https://github.com/hibernator11/hdh-compartir-pantalla-2023/raw/main/imagenes/mapa-autores.png" width="60%">
 
+## Members of the International GLAM Labs Community
+The information about the International GLAM Labs Community is stored in Wikidata as can be shown at this [map](https://glamlabs.io/member-map/). Each member is described by means of an entity in Wikidata, including a property ["member of"](https://www.wikidata.org/wiki/Property:P463) and using as value the identifier of the International GLAM Labs Community [Q72936141](https://www.wikidata.org/wiki/Q72936141).
+
+```
+#defaultView:Map
+SELECT distinct (SAMPLE(?image) as ?imageu) (SAMPLE(?logo) as ?logou) (SAMPLE(?provinceLabel) as ?prov)  (SAMPLE(?website) as ?websiteu)
+(SAMPLE(?location) as ?locationu) ?glamlab ?glamlabLabel
+WHERE {   
+       ?glamlab wdt:P463 wd:Q72936141. 
+        OPTIONAL {?glamlab wdt:P625 ?location.} # coordinates     
+        OPTIONAL {?glamlab wdt:P159 ?headquarters. ?headquarters wdt:P625 ?location.}
+        OPTIONAL {?glamlab wdt:P131 ?province.}     
+        OPTIONAL {?glamlab wdt:P18 ?image .}      
+        OPTIONAL {?glamlab wdt:P154 ?logo .}      
+        OPTIONAL {?glamlab wdt:P856 ?website .}  
+          
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+} GROUP BY ?glamlab ?glamlabLabel
+```
+
+<img src="imagenes/mapa-glamlabs.png" width="60%">
+
+## Federated queries
+SPARQL enables the use of federated queries to search across several repositories. See, for example, the following example that retrieves the works included in the Biblioteca Virtual Miguel de Cervantes of the author Lope de Vega (wd:Q165257).
+
+```
+SELECT ?workLabel WHERE {
+  wd:Q165257 wdt:P2799 ?id 
+  BIND(uri(concat("https://data.cervantesvirtual.com/person/", ?id)) as ?bvmcID) 
+  SERVICE <http://data.cervantesvirtual.com/openrdf-sesame/repositories/data> {
+    ?bvmcID <http://rdaregistry.info/Elements/a/authorOf> ?work .
+    ?work rdfs:label ?workLabel        
+  }
+}
+```
+
 
 ## References
 
