@@ -1,5 +1,5 @@
 # dhlab-nova-lisboa
-Workshop for the [Digital Humanities Lab (DH_Lab)](https://dhlab.fcsh.unl.pt/about-lab_hd-fcsh/#en) associated with [NOVA-FCSH](http://www.fcsh.unl.pt/) of [Universidade NOVA de Lisboa](https://www.unl.pt/).
+This project was originally created for a workshop for the [Digital Humanities Lab (DH_Lab)](https://dhlab.fcsh.unl.pt/about-lab_hd-fcsh/#en) associated with [NOVA-FCSH](http://www.fcsh.unl.pt/) of [Universidade NOVA de Lisboa](https://www.unl.pt/).
 
 
 ## Map representing the nationalities of the authors included in the Biblioteca Virtual Miguel de Cervantes
