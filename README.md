@@ -3,6 +3,8 @@ This project was originally created for a workshop for the [Digital Humanities L
 
 <img src="logos.png">
 
+This project provide several examples of reuse based on different techniques such as Information Retrieval, Data Visualisation or Natural Language Processing.
+
 ## Map representing the nationalities of the authors included in the Biblioteca Virtual Miguel de Cervantes
 This example is based on the [Linked Open Data version of the Biblioteca Virtual Miguel de Cervantes catalogue](https://data.cervantesvirtual.com/datos-enlazados). The data is enriched with Wikidata, enabling the creation of visualisations using the Wikidata SPARQL endpoint. The SPARQL query can be executed in this [link](https://w.wiki/9FwJ).
 
