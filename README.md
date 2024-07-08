@@ -61,6 +61,12 @@ SELECT ?workLabel WHERE {
 }
 ```
 
+## Jupyter Notebooks
+
+Additional examples are provided based on the use of Jupyter Notebooks. You can run these examples on the cloud without the need to install additional software.
+
+-[Accessing data.cervantesvirtual.com and Wikidata](https://nbviewer.org/github/hibernator11/dhlab-nova-lisboa/blob/main/LinkedOpenData-BVMC.ipynb)
+
 
 ## References
 
